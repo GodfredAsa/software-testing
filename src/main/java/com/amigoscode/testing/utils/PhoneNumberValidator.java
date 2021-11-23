@@ -9,7 +9,7 @@ public class PhoneNumberValidator implements Predicate<String> {
 
     @Override
     public boolean test(String phoneNumber) {
-        return phoneNumber.startsWith("+44") &&
-                phoneNumber.length() == 13;
+   return phoneNumber.startsWith("+44") && phoneNumber.length()==13;
     }
+
 }
